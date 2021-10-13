@@ -22,7 +22,7 @@ public class ChangeCalculator {
 			String askQ = JOptionPane.showInputDialog("How many quarters do you have?");
 			int askIntQ = Integer.parseInt(askQ);
 		// Calculate how much money the user has.  Hint: Use a double variable 
-			double total = (askIntNickel * 0.05 + askIntDime * 0.10 + askIntQ * 0.25 / 100);
+			double total = (askIntNickel * 0.05 + askIntDime * 0.10 + askIntQ * 0.25);
 		// Tell the user how much money they have in dollars and cents format (e.g. $6.75)
 			JOptionPane.showMessageDialog(null, "$" + total);
 	}
